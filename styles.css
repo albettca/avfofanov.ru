@@ -478,6 +478,20 @@ h3 {
     linear-gradient(135deg, var(--deep), #eef4f5);
 }
 
+.format-badge {
+  width: fit-content;
+  max-width: 100%;
+  margin: -12px 0 24px;
+  border: 1px solid rgba(47, 102, 115, 0.28);
+  border-radius: 8px;
+  padding: 14px 18px;
+  background: rgba(251, 248, 242, 0.82);
+  box-shadow: 0 14px 34px rgba(47, 102, 115, 0.1);
+  color: var(--sea);
+  font-size: 17px;
+  font-weight: 700;
+}
+
 .steps {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
