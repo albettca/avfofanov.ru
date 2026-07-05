@@ -130,7 +130,7 @@ h1 {
   max-width: 720px;
   margin-bottom: 24px;
   font-size: clamp(42px, 7vw, 82px);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.02;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -146,11 +146,11 @@ h1 {
 }
 
 .hero__name-light {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .hero__name-strong {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 h2 {
@@ -391,13 +391,19 @@ h3 {
 }
 
 .help-card--accent {
-  border-color: rgba(47, 102, 115, 0.24) !important;
-  background: linear-gradient(135deg, #d9e9ec 0%, #c1d9de 55%, #f4f6f6 130%) !important;
+  border-color: rgba(47, 102, 115, 0.38) !important;
+  background: linear-gradient(135deg, #bfd9df 0%, #9fc3cc 62%, #e7eef0 135%) !important;
+  box-shadow: 0 18px 44px rgba(47, 102, 115, 0.14) !important;
+}
+
+.help-card--accent h3 {
+  color: #1f5968;
 }
 
 .help-card--accent:hover {
-  border-color: rgba(47, 102, 115, 0.42) !important;
-  background: linear-gradient(135deg, #cfe2e6 0%, #b5d0d7 55%, #fff 130%) !important;
+  border-color: rgba(31, 89, 104, 0.52) !important;
+  background: linear-gradient(135deg, #b3d1d8 0%, #8db7c1 62%, #f4f6f6 135%) !important;
+  box-shadow: 0 26px 58px rgba(47, 102, 115, 0.22) !important;
 }
 
 .help-card--note {
